@@ -15,6 +15,9 @@ Remember to write `luaujs ` followed by these commands:
 - create: here comes the actual power of my Framework, this command asks 1 argument (optional) which is the name so it will be `luaujs create dir_name`, this command will import a Framework Directory inside the current file the Terminal is pointing at, once downloaded you will see 3 files inside the folder: main.lua, index.html and module.lua, you will be working most of the time in main.lua, since that Script will let you can write the HTML for your web page, it will be only frontend for now.
 - run: this command will transform the Lua code into HTML code.
 
+# Q&A
+- Why is it called Luaujs when we are using Lua and not Luau?: We are actually using Lua but with a syntax which is very similiar to Luau, since it uses Instance type.
+
 # Future Updates
 - read will be able to read files backwords, so youll be able to write `../main/...`, `..` stands for 'search in the directory where i am inside' or the Parent of the current Directory.
 - run will be able to transform the Lua code into HTMl code.
