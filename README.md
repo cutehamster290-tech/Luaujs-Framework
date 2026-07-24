@@ -17,3 +17,4 @@ Remember to write `luaujs ` followed by these commands:
 
 # Future Updates
 - read will be able to read files backwords, so youll be able to write `../main/...`, `..` stands for 'search in the directory where i am inside' or the Parent of the current Directory.
+- run will be able to transform the Lua code into HTMl code.
