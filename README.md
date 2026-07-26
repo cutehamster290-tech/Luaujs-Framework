@@ -4,8 +4,8 @@ A Framework that transforms Luau's code in HTML code.
 # Install
 To install it use `npm install luaujs` if you installed NodeJs in your Computer!
 
-# Usage
-Luaujs comes with many commands and the framework, anything you will type will be similiar to this: `luaujs command_name arguments`
+## Note
+Luaujs comes with some commands and the framework, anything you will type will be similiar to this: `luaujs command_name arguments`
 
 # Commands
 Remember to write `luaujs ` followed by these commands:
@@ -14,6 +14,9 @@ Remember to write `luaujs ` followed by these commands:
 - read: asks for 1 argument, the file you want to read or the path to it, if you write `luaujs read index.html` it will read the `index.html` file in your current folder you are in the terminal, if you write instead `luaujs read main/client.js` it will search for the client.js file in main Directory and then read it. Be careful with reverse paths, so like if you are searching for the Parent path of the current path you are in right now, use `cd ..` first and then use `luaujs read file_name/path`, because my Framework is not able to read the Parent Directory's Parent etc.
 - create: here comes the actual power of my Framework, this command asks 1 argument (optional) which is the name so it will be `luaujs create dir_name`, this command will import a Framework Directory inside the current file the Terminal is pointing at, once downloaded you will see 3 files inside the folder: main.lua, index.html and module.lua, you will be working most of the time in main.lua, since that Script will let you can write the HTML for your web page, it will be only frontend for now.
 - run: this command will transform the Lua code into HTML code.
+
+# Framework
+Once you wrote luaujs create dir_name (oprional) you will see a new Directory named dir_name or Template in the folder where you called the command from the Terminal, there will be : index.html,  main.lua and a directory with some Modules you can require in the main script using Get(module_name), you can also create your own module that returns something and require it! at the beginning, you'll see that the main.lua script contains some code very similiar to Luau's code, such as require(), Instance.new(), and also you can see that we use Methods like mdText() which i will explain more deeply later.
 
 # Q&A
 - Why is it called Luaujs when we are using Lua and not Luau?: We are actually using Lua but with a syntax which is very similiar to Luau, since it uses Instance type.
