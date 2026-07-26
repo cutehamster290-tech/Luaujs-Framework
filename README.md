@@ -18,6 +18,24 @@ Remember to write `luaujs ` followed by these commands:
 # Framework
 Once you wrote luaujs create dir_name (oprional) you will see a new Directory named dir_name or Template in the folder where you called the command from the Terminal, there will be : index.html,  main.lua and a directory with some Modules you can require in the main script using Get(module_name), you can also create your own module that returns something and require it! at the beginning, you'll see that the main.lua script contains some code very similiar to Luau's code, such as require(), Instance.new(), and also you can see that we use Methods like mdText() which i will explain more deeply later.
 
+## setMultiple/setSettings
+These 2 methods modify way the result appears (from Luau to HTML), if you remove them, youll see the HTML code that is 'sticky', thats because we removed the indent, the autospace and the autoformat. setMultiple asks for 2 arguments, the values you want to set and the value you want give them, we use those 2 lines only for the readbility of the result.
+
+## Instance.new(element: string)
+here is where we get more into Luau, we are going to use this command to create a new Instance, which is actually a HTML Element (h1, h2, div, label, ...), and generate a basic structure of it: openTag, text, closeTag, Parent, Childs and much more
+
+## element.mdText(text: string)
+this Method modifies the text of the HTML Element, i suggest you to use this instead of element.text = ... since mdText also adds indent and autoformat to the element's text!
+
+## element.appendChild(element: table)
+adds another HTML element into the element, updating some proprierties of each other parent, childs and also closetag
+
+## Instance.Result(element: table)
+prints every single item inside that element and the element itself, so you will see the div with inside the h1 with inside the label with inside the h2!
+
+## More commands
+there are also more commands, these are just some commands you can use to generate HTML using Luau, you can explore by yourself!
+
 # Q&A
 - Why is it called Luaujs when we are using Lua and not Luau?: We are actually using Lua but with a syntax which is very similiar to Luau, since it uses Instance type.
 
