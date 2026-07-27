@@ -1,4 +1,4 @@
-# Luaujs
+<img width="1858" height="945" alt="{5BCC15D9-B053-4CBD-98AF-344174B10BC2}" src="https://github.com/user-attachments/assets/0ff6d154-1d3e-41c8-847d-46bd81607567" /># Luaujs
 A Framework that transforms Luau's code in HTML code.
 
 # Install
@@ -26,7 +26,8 @@ Once you wrote `luaujs create dir_name (oprional)` you will see a new Directory 
 
 - `element.appendChild(element: table)`: adds another HTML element into the element, updating some proprierties of each other parent, childs and also closetag
 
-- `Instance.Result(element: table)`: prints every single item inside that element and the element itself, so you will see the div with inside the h1 with inside the label with inside the h2!
+- `Instance.Result(element: table, Fullhtml: string?)`: prints every single item inside that element and the element itself, so you will see the div with inside the h1 with inside the label with inside the h2. write anything with a Thruthy value in the arg2 to show the entire html code (which i suggest).
+- `element.setStyle(table: table)`: asks for a table and sets the element.attributes.style to that table, you can do it manually too if you prefer!
 
 ## More commands
 there are also more commands, these are just some commands you can use to generate HTML using Luau, you can explore by yourself, like `element.innerHTML` or `element.mdAttributes` (to modify the attributes of an element)!
