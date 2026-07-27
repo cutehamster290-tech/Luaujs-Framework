@@ -16,7 +16,7 @@ Remember to write `luaujs ` followed by these commands:
 - run: this command will transform the Lua code into HTML code.
 
 # Framework
-Once you wrote luaujs create dir_name (oprional) you will see a new Directory named dir_name or Template in the folder where you called the command from the Terminal, there will be : index.html,  main.lua and a directory with some Modules you can require in the main script using Get(module_name), you can also create your own module that returns something and require it! at the beginning, you'll see that the main.lua script contains some code very similiar to Luau's code, such as require(), Instance.new(), and also you can see that we use Methods like mdText() which i will explain more deeply later.
+Once you wrote `luaujs create dir_name (oprional)` you will see a new Directory named `dir_name` or Template in the folder where you called the command from the Terminal, there will be : index.html,  main.lua and a directory with some Modules you can require in the main script using `Get(module_name)`, you can also create your own module that returns something and require it! at the beginning, you'll see that the main.lua script contains some code very similiar to Luau's code, such as `require()`, `Instance.new()`, and also you can see that we use Methods like `mdText()` which i will explain more deeply later.
 
 - `setMultiple/setSettings`: These 2 methods modify way the result appears (from Luau to HTML), if you remove them, youll see the HTML code that is 'sticky', thats because we removed the indent, the autospace and the autoformat. setMultiple asks for 2 arguments, the values you want to set and the value you want give them, we use those 2 lines only for the readbility of the result.
 
