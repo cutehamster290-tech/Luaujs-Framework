@@ -29,7 +29,7 @@ Once you wrote `luaujs create dir_name (oprional)` you will see a new Directory 
 - `Instance.Result(element: table)`: prints every single item inside that element and the element itself, so you will see the div with inside the h1 with inside the label with inside the h2!
 
 ## More commands
-there are also more commands, these are just some commands you can use to generate HTML using Luau, you can explore by yourself, like `element.innerHTML` or `element.mdOpenTag` (to modify the attributes of an element)!
+there are also more commands, these are just some commands you can use to generate HTML using Luau, you can explore by yourself, like `element.innerHTML` or `element.mdAttributes` (to modify the attributes of an element)!
 
 # Future Updates
 - read will be able to read files backwords, so youll be able to write `../main/...`, `..` stands for 'search in the directory where i am inside' or the Parent of the current Directory.
