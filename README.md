@@ -31,9 +31,6 @@ Once you wrote luaujs create dir_name (oprional) you will see a new Directory na
 ## More commands
 there are also more commands, these are just some commands you can use to generate HTML using Luau, you can explore by yourself!
 
-# Q&A
-- Why is it called Luaujs when we are using Lua and not Luau?: We are actually using Lua but with a syntax which is very similiar to Luau, like `element.innerHTML` or `element.mdOpenTag` (to add Attributes to a HTMLElement).
-
 # Future Updates
 - read will be able to read files backwords, so youll be able to write `../main/...`, `..` stands for 'search in the directory where i am inside' or the Parent of the current Directory.
 - run will be able to transform the Lua code into HTMl code.
