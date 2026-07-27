@@ -1,4 +1,4 @@
-<img width="1858" height="945" alt="{5BCC15D9-B053-4CBD-98AF-344174B10BC2}" src="https://github.com/user-attachments/assets/0ff6d154-1d3e-41c8-847d-46bd81607567" /># Luaujs
+# Luaujs
 A Framework that transforms Luau's code in HTML code.
 
 # Install
